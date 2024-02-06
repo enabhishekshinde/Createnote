@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 'Popins' , sans-serif;
+}
+.container{
+
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(153deg ,#cf9aff,#95c0ff);
+
+    color: #fff;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+.container h1{
+   font-size: 80px;
+}
+.container h1 img{
+    width: 60px;
+    height: 60px;
+    font-family: sans-serif;
+}
+.container button{
+    margin-top: 10px;
+    font-size: 25px;
+    border-radius: 50px;
+    background-color:rgb(9, 167, 159);
+    width: fit-content;
+    padding: 10px;
+
+}
+.container button img{
+    width: 25px;
+    height: 25px;
+}
+.input-box{
+
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    min-height: 150px;
+    background: #fff;
+    color: #333;
+    padding: 20px;
+    margin: 20px 0;
+    outline: none;
+    border-radius: 5px;
+}
+.notes-container p img{
+    height: 20px;
+    width: 20px;
+    position:absolute;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+}
+
